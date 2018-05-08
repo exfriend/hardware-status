@@ -1,0 +1,30 @@
+{
+  "name": "exfriend/hardware-info",
+  "description": "CPU, Memory, Disk and uptime indicators for your dashboard",
+  "type": "library",
+  "require": {
+    "symfony/process": "^4.0"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "exfriend",
+      "email": "krevedkothesaint@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Exfriend\\HardwareInfo\\": "./"
+    },
+    "files": [
+      "helpers.php"
+    ]
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Exfriend\\HardwareInfo\\HardwareInfoServiceProvider"
+      ]
+    }
+  }
+}
