@@ -14,7 +14,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "Exfriend\\HardwareInfo\\": "./"
+      "Exfriend\\HardwareInfo\\": "src/"
     },
     "files": [
       "helpers.php"
